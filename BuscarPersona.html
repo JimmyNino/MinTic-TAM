@@ -5,18 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="CSS\StyleBusqueda.css">
 </head>
 <body>
-    <section class="form-BuscarPersona" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
-        <video src="Inicio2.mp4" autoplay muted loop> </video>
-        <center>
-            <div class="input-icono">
-                <p><input type = "BarraBusqueda" name = "Numero" id="Numero" placeholder="Número de móvil"/></p>
-            </div>
-        </center>
-        
-          
-    </section>
+    <section class="form-Busqueda" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+        <video src="Videos\Inicio2.mp4" autoplay muted loop> </video>
+        <nav>
+            
+            <div class="nav-cont">
+                <img src="Imagenes\Titulo.PNG" width="200" height="50">
+                
+				<div class="cont-input">
+                    <span><img src="iconos/search-icon.png" alt="Instagram"></span>
+                    <input type="search" placeholder="Buscar">
+                    
+				</div>
+
+				<div class="iconos">
+                    <img class="small-logo" src="Imagenes/Home.png" >
+                    <img class="small-logo" src="Imagenes/Corazon.png">
+                    <img class="small-logo" src="Imagenes/Messenger.png">
+                    <img class="small-logo" src="Imagenes/User.png">                  
+                    
+				</div>
+                
+			</div>
+        </nav> 
+        <section class="form-Filtro" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+            <div class="Filtro">
+                <input type="button" value="Todo"> 
+                <input type="button" value="Publicaciones"> 
+                <input type="button" value="Personas"> 
+                <input type="button" value="Fotos"> 
+                <input type="button" value="Lugares">               
+			</div>
+        </section>
+        <section class="form-BusquedasRecientes" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+                <div  class="MenuBusqueda">
+                    <p>Búsquedas recientes</p>
+                    <p2>Ver todo</p2>
+                </div>            
+        </section>
+        <section class="form-PersonasEncontradas" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+            <div style="text-align: left;" class="perfil-container">
+                <img class="small-logo" src="Imagenes/Usuaria2.jpg" viewBox="0 0 48 48">
+                <div style="text-align: left;" class="MenuBusqueda">
+                    
+                    <section class="form-PerfilBusqueda" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+                        <p>Emma Maria Lozano Torres</p>
+                        <p3>Universidad Central</p3><br><br>
+                        <p4>23 años</p4>
+                    </section>
+                </div> 
+                <div  class="AgregarPersona">
+                    <img class="small-Icono" src="Imagenes/Añadir.png">
+                </div> 
+            </div>   
+        </section>
+
+        <section class="form-PersonasEncontradas" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+            <div style="text-align: left;" class="perfil-container">
+                <img class="small-logo" src="Imagenes/Usuaria1.jpg" viewBox="0 0 48 48">
+                <div style="text-align: left;" class="MenuBusqueda">
+                    
+                    <section class="form-PerfilBusqueda" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+                        <p>Angie Lorena Castillo Cardenaz</p>
+                        <p3>Universidad Nacional</p3><br><br>
+                        <p4>29 años</p4>
+                    </section>
+                </div> 
+                <div  class="AgregarPersona">
+                    <img class="small-Icono" src="Imagenes/Añadir.png">
+                </div> 
+            </div>   
+        </section>
+        <section class="form-PersonasEncontradas" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+            <div style="text-align: left;" class="perfil-container">
+                <img class="small-logo" src="Imagenes/Usuario3.jpg" viewBox="0 0 48 48">
+                <div style="text-align: left;" class="MenuBusqueda">
+                    
+                    <section class="form-PerfilBusqueda" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+                        <p>Victor Nicolas Alvarez Perez</p>
+                        <p3>Universidad Libre</p3><br><br>
+                        <p4>25 años</p4>
+                    </section>
+                </div> 
+                <div  class="AgregarPersona">
+                    <img class="small-Icono" src="Imagenes/Añadir.png">
+                </div> 
+            </div>   
+        </section>
+    </section>  
+
 </body>
 </html>
