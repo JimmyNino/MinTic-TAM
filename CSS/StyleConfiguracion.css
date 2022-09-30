@@ -1,0 +1,112 @@
+.form-Busqueda{
+    position: static;
+    padding: 15px;
+    margin: auto;
+    width: 950px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.form-Contenedor{
+    position: static;
+    padding: 15px;
+    margin: auto;
+    width: 950px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+}
+.form-Contenedor1{
+    position: static;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(190, 65, 65);
+}
+.Opciones{
+    margin-left: 0em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-cont{
+    width: 500px;
+    height: 30px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.cont-input{
+    height: 28px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 5em;
+    margin-right: 0;
+    border: solid 1px #dbdbdb;
+    display: flex;
+    align-items: center;
+    background: #fafafa;
+    padding: 5px;
+}
+video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  .iconos{
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.iconos .small-logo{
+    width: 25px;
+    height: 25px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+input[type=Search] {
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #f8f8f8;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #f8f8f8;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+input[type=button] {
+    border: 1px solid rgb(216, 216, 216);
+    background-color: rgb(245, 245, 245);
+    color: rgb(53, 52, 52);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-weight: bold;
+    width: 50%;
+    height: 50px;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  

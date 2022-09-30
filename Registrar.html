@@ -1,35 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Document</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS\Style.css">
+    <link rel="stylesheet" href="CSS\StyleRegistrar.css">
+    <style>
+        input[type=NumeroMovil] {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid rgb(216, 216, 216);
+            border-radius: 4px;
+            font-size: 12px;
+            background-color: #f8f8f8;
+            background-image: url('Iconos-Registrar/NumeroMovil.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            margin-top: 1.17em;
+            margin-bottom: 0.17em;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        input[type=CorreoElectrónico] {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid rgb(216, 216, 216);
+            border-radius: 4px;
+            font-size: 12px;
+            background-color: #f8f8f8;
+            background-image: url('Iconos-Registrar/Correo.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            margin-top: 1.17em;
+            margin-bottom: 0.17em;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        input[type=NombreCompleto] {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid rgb(216, 216, 216);
+            border-radius: 4px;
+            font-size: 12px;
+            background-color: #f8f8f8;
+            background-image: url('Iconos-Registrar/Nombre.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            margin-top: 1.17em;
+            margin-bottom: 0.17em;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        input[type=NombreUsuario] {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid rgb(216, 216, 216);
+            border-radius: 4px;
+            font-size: 12px;
+            background-color: #f8f8f8;
+            background-image: url('Iconos-Registrar/User.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            margin-top: 1.17em;
+            margin-bottom: 0.17em;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        input[type=Contraseña] {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid rgb(216, 216, 216);
+            border-radius: 4px;
+            font-size: 12px;
+            background-color: #f8f8f8;
+            background-image: url('Iconos-Registrar/Password.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            margin-top: 1.17em;
+            margin-bottom: 0.17em;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    </style>
 </head>
 <body>
-    <section class="form-registro" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
-        <video src="Videos/Inicio2.mp4" autoplay muted loop> </video>
+    <video src="Videos/Inicio2.mp4" autoplay muted loop> </video>
+    <section class="form-Contenedor1" action="" method="get" name="formRegistro1" onSubmit="validar_formulario();">
         <center>
-            <p><img src="Imagenes/Titulo.PNG" width="200" height="50"></p>
+            <img src="Imagenes-Registrar\Titulo.PNG" width="200" height="50">
         </center>
         <h1 style="text-align:center"> Regístrate para ver fotos y videos de tus amigos.</h1>
-        <p><img src="Imagenes/Separador.PNG" width = "300" height="18"></p>
+        <img src="Imagenes-Registrar\Separador.PNG" width = "300" height="18">
         
-        <p><input type = "text" name = "Numero" id="Numero" placeholder="Número de móvil"/></p>
-        <p><input type = "text" name = "CorreoElectronico" id="CorreoElectronico" placeholder="Correo electrónico"/></p>
-        <p><input type = "text" name = "Nombre" id="Nombre" placeholder="Nombre completo"/></p>
-        <p><input type = "text" name = "User" id="User" placeholder="Nombre de usuario"/></p>
-        <p><input type = "text" name = "Contraseña" id="Contraseña" placeholder="Contraseña"/></p>
+        <p><input type = "NumeroMovil"       name = "Numero"            id="S_Numero"            placeholder="Número de móvil"/></p>
+        <p><input type = "CorreoElectrónico" name = "CorreoElectronico" id="S_CorreoElectronico" placeholder="Correo electrónico"/></p>
+        <p><input type = "NombreCompleto"    name = "Nombre"            id="S_Nombre"            placeholder="Nombre completo"/></p>
+        <p><input type = "NombreUsuario"     name = "User"              id="S_User"              placeholder="Nombre de usuario"/></p>
+        <p><input type = "Contraseña"        name = "Contraseña"        id="S_Contraseña"        placeholder="Contraseña"/></p>
         
         <h2 style="text-align:center">Al registrarte, aceptas nuestras Condiciones, nuestra Política de privacidad y nuestra Política de cookies.</h2>
         
         <input type="button" value="Registrarte">
     </section>
-    <section class="form-registro2" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+    <section class="form-Contenedor2" action="" method="get" name="formRegistro2" onSubmit="validar_formulario();">
         <center>
             <p>¿Tienes una cuenta?<b style="color: #1a9e008e"> Entrar </b></p>
         </center>  
     </section>   
+        </nav>
+
 </body>
 </html>

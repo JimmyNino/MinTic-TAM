@@ -1,26 +1,64 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Look At Me</title>
-  <link rel="stylesheet" href="mensaje.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS\StyleChat.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Chat en Línea</h1>
+  <section class="form-Chat" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+    <video src="Videos\Inicio2.mp4" autoplay muted loop> </video>
+    <nav>    
+      <div class="nav-cont">
+        <img src="Imagenes-Chat/Titulo.PNG" width="200" height="50">
+        <div class="cont-input">
+          <span><img src="Imagenes-Perfil/Lupa.png"></span>
+          <input type="search" placeholder="Buscar...">
         </div>
-        <div class="body">
-            <p class="message">Hello</p>
-            <p class="message user_message">Hi</p>
-        </div>
-        <div class="footer">
-            <form>
-                <input type="text">
-                <button>Send</button>
-            </form>
-        </div>
+        <div class="iconos">
+          <img class="small-logo" src="Imagenes-Perfil/Home.png" >
+          <img class="small-logo" src="Imagenes-Perfil/Corazon.png">
+          <img class="small-logo" src="Imagenes-Perfil/Messenger.png">
+          <img class="small-logo" src="Imagenes-Perfil/User.png">                            
+        </div>   
+      </div>
+    </nav> 
+  </section>
+  
+  <section class="form-ChatCenter" action="" method="get" name="formRegistro" onSubmit="validar_formulario();">
+    <div style="text-align: center;" class="perfil-container">
+      <section class="form-Informacion1" action="" method="get" name="Informacion1" onSubmit="validar_formulario();">
+        <center><img class="Foto" src="Imagenes-Chat/Amigo1.jpg" viewBox="0 0 48 48"></center><br>
+        <center><img class="Foto" src="Imagenes-Chat/Amigo2.jpg" viewBox="0 0 48 48"></center><br>
+        <center><img class="Foto" src="Imagenes-Chat/Amigo3.jpg" viewBox="0 0 48 48"></center><br>
+        <center><img class="Foto" src="Imagenes-Chat/Amigo4.jpg" viewBox="0 0 48 48"></center><br>
+        <center><img class="Foto" src="Imagenes-Chat/Imagen5.jpg" viewBox="0 0 48 48"></center><br>
+        <center><img class="Foto" src="Imagenes-Chat/Imagen6.jpg" viewBox="0 0 48 48"></center><br>
+        <center><img class="Foto" src="Imagenes-Chat/Imagen7.jpg" viewBox="0 0 48 48"></center> 
+      </section>
+      <section class="form-Informacion2" action="" method="get" name="Informacion1" onSubmit="validar_formulario();">
+
+      </section>  
+  
     </div>
+    <section class="form-Informacion3" action="" method="get" name="Informacion1" onSubmit="validar_formulario();">
+      <div style="text-align: center;" class="perfil-container1">
+        
+        <section class="form-Informacion4" action="" method="get" name="Informacion1" onSubmit="validar_formulario();">
+          <img src="Iconos-Chat/Subir.png">
+        </section>
+        <section class="form-Informacion5" action="" method="get" name="Informacion1" onSubmit="validar_formulario();">
+          <input type="EscribirMensaje" name="EscribirMensaje" id = "S_Mensaje" placeholder="Escribe un mensaje ...">
+        </section>
+        <section class="form-Informacion6" action="" method="get" name="Informacion1" onSubmit="validar_formulario();">
+          <img src="Iconos-Chat/Enviar.png">
+        </section>
+      </div>
+      
+    </section>   
+
+  </section>
+
 </body>
-</html>

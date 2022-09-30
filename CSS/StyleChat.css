@@ -1,0 +1,232 @@
+.form-Chat{
+    position: static;
+    padding: 15px;
+    margin: auto;
+    width: 950px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-ChatCenter{
+    position: static;
+    padding: 15px;
+    margin: auto;
+    width: 950px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-ChatPersonas{
+    position: static;
+    padding: 15px;
+    margin: auto;
+    width: 75px;
+    height: 100px;
+    background-color: rgb(204, 24, 24);
+}
+
+.form-ChatPrivado{
+    position: static;
+    padding: 15px;
+    margin: auto;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(5, 134, 33);
+}
+
+
+video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
+  .nav-cont{
+    width: 500px;
+    height: 30px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.nav-ChatContenedor{
+    position: static;
+    padding: 15px;
+    margin: auto;
+    width: 950px;
+    height: 30px;
+    background-color: rgb(245, 245, 245);
+}
+
+.nav-ChatContenedor1{
+    width: 950px;
+    height: 30px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.FotoPerfil{
+    width: 500px;
+    height: 30px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+
+.cont-input{
+    height: 28px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 5em;
+    margin-right: 0;
+    border: solid 1px #dbdbdb;
+    display: flex;
+    align-items: center;
+    background: #fafafa;
+    padding: 5px;
+}
+
+input[type=Search] {
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #f8f8f8;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #f8f8f8;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.iconos{
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.iconos .small-logo{
+    width: 25px;
+    height: 25px;
+    margin-top: 0.17em;
+    margin-bottom: 0.17em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.perfil-container{
+    background-color: rgb(11, 160, 165);
+    width: 950px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.perfil-container1{
+    background-color: rgb(11, 160, 165);
+    width: 920px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.form-Informacion1{
+    position: static;
+    padding: 15px;
+    margin: auto;
+    width: 70px;
+    height: 450px;
+    background-color: rgb(245, 245, 245);
+}
+.form-Informacion2{
+    position: static;
+    padding: 15px;
+    margin-top: 0em;
+    margin-left: 0em;
+    width: 830px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+}
+.form-Informacion3{
+    position: static;
+    padding: 15px;
+    margin-top: 0em;
+    margin-left: 0em;
+    width: 920px;
+    height: 60px;
+    background-color: rgb(245, 245, 245);
+}
+.form-Informacion4{
+    position: static;
+    padding: 15px;
+    margin-top: 0em;
+    margin-left: 0em;
+    width: 40px;
+    height: 33px;
+    background-color: rgb(245, 245, 245);
+}
+.form-Informacion5{
+    position: static;
+    padding: 15px;
+    margin-top: 0em;
+    margin-left: 0em;
+    width: 870px;
+    height: 33px;
+    background-color: rgb(245, 245, 245);
+}
+.form-Informacion6{
+    position: static;
+    padding: 15px;
+    margin-top: 0em;
+    margin-left: 0em;
+    width: 60px;
+    height: 33px;
+    background-color: rgb(245, 245, 245);
+}
+
+.Foto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+input[type=EscribirMensaje] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #f8f8f8;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+  }

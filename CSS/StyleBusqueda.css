@@ -13,7 +13,7 @@
 .perfil-container img{
     height: 150px;
     width: 150px;
-    border-radius: 40%;
+    border-radius: 50%;
     cursor: pointer;
 }
 .perfil-container{
@@ -31,6 +31,7 @@
     background: #fafafa;
     padding: 5px;
 }
+
 .cont-input input{
     border: 0;
     outline: none;
@@ -182,22 +183,28 @@
     margin-right: 20px;
 }
 
-input[type=search] {
-    background-color: #f8f8f8;
-    border:  rgb(216, 216, 216);
-    background-repeat: no-repeat;
+input[type=Search] {
     width: 300px;
     height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #f8f8f8;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: #f8f8f8;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
     margin-top: 0.17em;
     margin-bottom: 0.17em;
     margin-left: 0;
     margin-right: 0;
-  }
+}
+
 
   .form-Busqueda{
     position: static;
     padding: 15px;
-    border-radius: 10px;
+    
     margin: auto;
     width: 950px;
     height: 740px;
@@ -217,7 +224,7 @@ input[type=search] {
     position: static;
     width: 920px;
     height: 30px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.842);
   }
   .form-PersonasEncontradas{
     padding: 15px;
@@ -253,6 +260,27 @@ input[type=search] {
     margin-left: 0em;
     display: flex;
     cursor: pointer;
+    width: 920px;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.MenuBusqueda1{
+    margin-left: 0em;
+    display: flex;
+    cursor: pointer;
+    width: 830px;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.MenuBusqueda2{
+    margin-left: 0em;
+    display: flex;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    background-color: #ffffff;
 }
 
 .AgregarPersona{
@@ -262,8 +290,8 @@ input[type=search] {
     cursor: pointer;
 }
 .AgregarPersona .small-Icono{
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
     margin-top: 0.17em;
     margin-bottom: 0.17em;
     margin-left: 1em;
@@ -271,13 +299,12 @@ input[type=search] {
 }
 
 input[type=button] {
-    border: 1px solid rgb(173, 173, 173);
-    background-color: #ffffffff;
-    color: rgb(133, 133, 133);
+    border: 1px solid rgb(245, 245, 245);
+    background-color: #19970091;
+    color: rgb(245, 245, 245);
     background-repeat: no-repeat;
     width: 185px;
     height: 30px;
-    border-radius: 10px;
     font-size: 15px;
     font-style: italic;
     font-weight: bold;
@@ -286,15 +313,15 @@ input[type=button] {
   p {
     margin-top: 0em;
     margin-left: 0.6em;
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
     font-weight: bold;
     cursor: pointer;
   }
   p2 {
     margin-top: 0em;
-    margin-left: 24em;
-    font-size: 25px;
+    margin-left: 0em;
+    font-size: 20px;
     font-style: italic;
     font-weight: bold;
     cursor: pointer;
